@@ -94,9 +94,7 @@ h1 img {
   width: 140px; }
 
 .items-list {
-  margin-bottom: 20px;
-  font-size: 11px;
-  font-size: 1.1rem; }
+  margin-bottom: 20px; }
   .items-list ul {
     display: flex;
     flex-wrap: wrap;
@@ -105,13 +103,15 @@ h1 img {
       box-sizing: border-box;
       background: #ffffff;
       padding: 10px;
-      width: 49%;
-      margin-bottom: 5px; }
+      width: 49.5%;
+      margin-bottom: 3px; }
       .items-list ul li img {
         display: block;
         width: 100%; }
       .items-list ul li p {
-        width: 100%; }
+        width: 100%;
+        font-size: 11px;
+        font-size: 1.1rem; }
         .items-list ul li p .item_name {
           margin-top: 10px; }
         .items-list ul li p .item_price {
@@ -120,7 +120,7 @@ h1 img {
 @media (min-width: 550px) {
   .items-list ul li {
     box-sizing: border-box;
-    width: 31%; }
+    width: 33%; }
     .items-list ul li p {
       width: 100%; } }
 .shopping-guide {
@@ -207,15 +207,21 @@ h1 img {
   border-bottom: 1px solid #f9f8f6;
   background-image: url(../images/top/next_icon_gray.png);
   background-repeat: no-repeat;
-  background-position: right 10px bottom 15px; }
+  background-position: right 10px bottom 15px;
+  font-size: 12px;
+  font-size: 1.2rem; }
 
 .about {
   margin-top: 10px;
-  background: #ffffff; }
+  background: #ffffff;
+  font-size: 12px;
+  font-size: 1.2rem; }
 
 .shop-info {
   margin-top: 10px;
-  background: #ffffff; }
+  background: #ffffff;
+  font-size: 12px;
+  font-size: 1.2rem; }
 
 .flex-container {
   display: inline-flex;
@@ -265,7 +271,8 @@ hr {
   border-top: 1px #b8b4ac solid; }
 
 .footer_menu {
-  font-size: 1rem;
+  font-size: 11px;
+  font-size: 1.1rem;
   margin: 15px 0; }
 
 .copy {
@@ -355,7 +362,8 @@ hr {
     margin: 20px 0; }
 
 a {
-  color: black; }
+  color: black;
+  text-decoration: none; }
 
 #product_info {
   background: #ffffff;

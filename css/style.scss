@@ -14,6 +14,7 @@ $key_color : #887f69;
 $ja_font : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
 
 
+
 body{
   background: #f9f8f6;
   line-height:1.5;
@@ -148,7 +149,6 @@ h1{
 .items-list{  
   margin-bottom:20px;
 
-  @include fontsize(11);
   ul{
     display:flex;
     flex-wrap:wrap;
@@ -158,8 +158,8 @@ h1{
       box-sizing: border-box;
       background:#ffffff;
       padding:10px;
-      width:49%;
-      margin-bottom:5px;
+      width:49.5%;
+      margin-bottom:3px;
       
         img{
           display:block;
@@ -167,6 +167,7 @@ h1{
         }
         p{
           width:100%;
+          @include fontsize(11);
           .item_name{
             margin-top:10px;
           }
@@ -183,7 +184,7 @@ h1{
      ul{
        li{
         box-sizing: border-box;
-        width:31%;
+        width:33%;
          p{
            width:100%;
          }
@@ -313,6 +314,7 @@ h1{
       background-image:url(../images/top/next_icon_gray.png);
       background-repeat: no-repeat;
       background-position:right 10px bottom 15px;
+    @include fontsize(12);
   }
   
 }
@@ -320,11 +322,13 @@ h1{
 .about {
   margin-top:10px;
   background:#ffffff;
+  @include fontsize(12);
 }
 
 .shop-info{
   margin-top:10px;
   background:#ffffff;
+  @include fontsize(12);
 }
    
 
@@ -394,7 +398,7 @@ hr {
   border-top: 1px #b8b4ac solid;
 }
 .footer_menu{
-  font-size:1rem;
+  @include fontsize(11);
   margin:15px 0;
 }
 .copy{
@@ -507,6 +511,7 @@ hr {
 }
 a{
   color:black;
+  text-decoration: none;
 }
 
 
