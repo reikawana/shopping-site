@@ -307,7 +307,7 @@ h1 img {
     padding-bottom: 8px; }
   .flex-item .more_img {
     width: 100%;
-    padding: 3px 0 9px 0; }
+    padding: 12px 0 9px 0; }
     .flex-item .more_img img {
       width: 51.53%;
       margin: 0 auto; } }
@@ -428,15 +428,12 @@ footer {
 
 @media (min-width: 550px) {
   .breadcrumb {
-    margin: 0 0 5px 0;
+    margin: 0 0 9px 0;
     height: 34px;
     border-radius: 3px; }
 
   .backandnext .block {
-    margin: 17px 0 5px 0; }
-
-  .pc_guide_h1 {
-    margin: 10px 0 23px 0; } }
+    margin: 17px 0 8px 0; } }
 #product_info {
   background: #ffffff;
   width: 100%;
@@ -564,8 +561,7 @@ table {
   text-align: left; }
 
 .hr_top {
-  border-top: 1px #e3e8cf solid;
-  margin: 0; }
+  border-top: 1px #e3e8cf solid; }
 
 @media (min-width: 550px) {
   .main_contents #product_info {
@@ -573,7 +569,6 @@ table {
     width: 100%;
     padding: 0 60px;
     margin: 0 auto;
-    margin-top: 10px;
     box-sizing: border-box; }
     .main_contents #product_info #itempage {
       width: 100%; }
@@ -582,21 +577,21 @@ table {
         justify-content: space-between;
         align-items: center; }
         .main_contents #product_info #itempage .item_title .pro_h1 {
-          padding: 39px 0 19px 0; }
+          padding: 39px 0 27px 0; }
         .main_contents #product_info #itempage .item_title .pro_number {
-          padding: 39px 0 19px 0; }
+          padding: 39px 0 27px 0; }
       .main_contents #product_info #itempage .container-image {
         display: flex;
         justify-content: space-between; }
       .main_contents #product_info #itempage .big-image {
         width: 70%;
-        padding: 20px 0 14px 0; }
+        padding: 16px 0 14px 0; }
         .main_contents #product_info #itempage .big-image img {
           width: 100%;
           margin: 0; }
       .main_contents #product_info #itempage .small-image {
         width: 28%;
-        padding: 20px 0 14px 0; }
+        padding: 16px 0 14px 0; }
         .main_contents #product_info #itempage .small-image ul li {
           width: 47%; }
           .main_contents #product_info #itempage .small-image ul li img {
@@ -642,10 +637,7 @@ table {
   .quantity-form {
     border: 1px solid #e8e4da;
     width: 146px;
-    height: 34px; }
-
-  .pc_guide_h1_pro {
-    margin: 22px 0; } }
+    height: 34px; } }
 @media (max-width: 550px) {
   .pc_only {
     display: none; }
@@ -662,4 +654,4 @@ a {
   color: black;
   text-decoration: none; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scc.map */
